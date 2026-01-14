@@ -163,8 +163,8 @@
                             <goal>jspc</goal>
                         </goals>
                         <configuration>
-                            <sourceVersion>17</sourceVersion>
-                            <targetVersion>17</targetVersion>
+                            <sourceVersion>21</sourceVersion>
+                            <targetVersion>21</targetVersion>
                             <webAppSourceDirectory>${warSourceDirectory}</webAppSourceDirectory>
                             <!-- Merge this web.xml with the generated servlet declarations -->
                             <webXml>${warSourceDirectory}/WEB-INF/web.xml</webXml>
@@ -437,7 +437,7 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20231013</version>
+            <version>20251224</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>

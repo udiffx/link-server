@@ -14,8 +14,8 @@
 
   <properties>
     <application.entrypoint>com.igniterealtime.openfire.updaterunner.Main</application.entrypoint>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
     <ojdbc.version>23.7.0.25.01</ojdbc.version>
   </properties>
 

@@ -87,9 +87,9 @@ public class ServerStarter {
             ClassLoader loader = new JiveClassLoader(parent, libDir);
 
             Thread.currentThread().setContextClassLoader(loader);
-            Class containerClass = loader.loadClass(
+            Class<?> containerClass = loader.loadClass(
                     "org.jivesoftware.openfire.XMPPServer");
-            containerClass.newInstance();
+            containerClass.getConstructor().newInstance();
         }
         catch (Exception e) {
             e.printStackTrace();

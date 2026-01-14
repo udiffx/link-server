@@ -18,7 +18,6 @@ package org.jivesoftware.admin;
 import org.jivesoftware.util.ByteFormat;
 import org.jivesoftware.util.StringUtils;
 
-import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
